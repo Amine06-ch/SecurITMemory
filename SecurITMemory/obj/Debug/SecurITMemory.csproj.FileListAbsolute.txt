@@ -1,0 +1,9 @@
+C:\Users\Amine\source\repos\SecurITMemory\SecurITMemory\bin\Debug\SecurITMemory.exe.config
+C:\Users\Amine\source\repos\SecurITMemory\SecurITMemory\bin\Debug\SecurITMemory.exe
+C:\Users\Amine\source\repos\SecurITMemory\SecurITMemory\bin\Debug\SecurITMemory.pdb
+C:\Users\Amine\source\repos\SecurITMemory\SecurITMemory\obj\Debug\SecurITMemory.csproj.AssemblyReference.cache
+C:\Users\Amine\source\repos\SecurITMemory\SecurITMemory\obj\Debug\SecurITMemory.Properties.Resources.resources
+C:\Users\Amine\source\repos\SecurITMemory\SecurITMemory\obj\Debug\SecurITMemory.csproj.GenerateResource.cache
+C:\Users\Amine\source\repos\SecurITMemory\SecurITMemory\obj\Debug\SecurITMemory.csproj.CoreCompileInputs.cache
+C:\Users\Amine\source\repos\SecurITMemory\SecurITMemory\obj\Debug\SecurITMemory.exe
+C:\Users\Amine\source\repos\SecurITMemory\SecurITMemory\obj\Debug\SecurITMemory.pdb
