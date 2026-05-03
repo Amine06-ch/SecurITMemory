@@ -1,105 +1,153 @@
-# SecurIT Memory
+# 🛡️ SecurIT Memory
 
-## Description
+## 📌 Description
 
-SecurIT Memory est un mini-jeu de cartes Memory développé en C# avec WinForms.  
-Le projet a été réalisé dans le contexte du Salon de l'Innovation Tech pour une start-up fictive spécialisée en cybersécurité : SecurIT.
+**SecurIT Memory** est un mini-jeu de Memory développé en **C# avec Windows Forms**.
 
-L'objectif du jeu est de retrouver toutes les paires de cartes représentant des éléments liés à la cybersécurité : mot de passe, pare-feu, virus, cadenas, réseau, chiffrement, etc.
+Le projet a été réalisé dans le cadre du **Salon de l'Innovation Tech** pour une start-up fictive spécialisée en cybersécurité : **SecurIT**.
 
-## Fonctionnalités
+🎯 **Objectif :**
+Retrouver toutes les paires de cartes représentant des éléments liés à la cybersécurité :
 
-- Menu principal avec les boutons Jouer, Options et Quitter
-- Grille de cartes générée dynamiquement
-- Mode 4x4
-- Mode 6x6
-- Mélange aléatoire des cartes
-- Retournement des cartes au clic
-- Comparaison automatique des paires
-- Timer de délai pour cacher les mauvaises paires
-- Chronomètre de partie
-- Compteur d'essais
-- Détection de victoire
-- Interface graphique WinForms claire et simple
+* 🔐 Mot de passe
+* 🛡️ Pare-feu
+* 🦠 Virus
+* 🔒 Cadenas
+* 🌐 Réseau
+* 🔑 Chiffrement
 
-## Technologies utilisées
+---
 
-- C#
-- Windows Forms
-- .NET
-- Visual Studio
-- GitHub
+## 🚀 Fonctionnalités
 
-## Structure du projet
+* 🎮 Menu principal (Jouer / Options / Quitter)
+* 🧩 Grille dynamique
+* 📏 Mode 4x4 et 6x6
+* 🔀 Mélange aléatoire des cartes
+* 🖱️ Interaction au clic
+* 🔎 Détection automatique des paires
+* ⏳ Timer pour cacher les erreurs
+* ⏱️ Chronomètre de partie
+* 🎯 Compteur d’essais
+* 🏆 Détection de victoire
+* 🖥️ Interface graphique WinForms
+
+---
+
+## 🛠️ Technologies utilisées
+
+* C#
+* .NET Framework
+* Windows Forms
+* Microsoft Visual Studio
+* GitHub
+
+---
+
+## 📂 Structure du projet
 
 ```text
 SecurITMemory/
-│
 ├── Carte.cs
 ├── EtatCarte.cs
 ├── JeuMemory.cs
 ├── Form1.cs
 ├── Program.cs
 └── README.md
-Notions utilisées
-Programmation orientée objet
-Classes et propriétés
-Enumération
-Listes
-Événements WinForms
-PictureBox
-Labels
-Boutons
-Timers
-Génération dynamique d'interface
-Classe Carte
+```
 
-La classe Carte représente une carte du jeu Memory.
+---
+
+## 🧠 Concepts utilisés
+
+* Programmation orientée objet (POO)
+* Classes et propriétés
+* Enumérations
+* Listes
+* Événements WinForms
+* Gestion des timers
+* Génération dynamique d’interface
+
+---
+
+## 🧩 Classe principale : Carte
+
+La classe **Carte** représente une carte du jeu.
 
 Elle contient :
 
-un identifiant de paire
-un symbole cybersécurité
-un état : Cachée, Révélée ou Trouvée
+* un identifiant de paire
+* un symbole cybersécurité
+* un état : **Cachée / Révélée / Trouvée**
 
-Cette classe permet de respecter une structure orientée objet propre.
+👉 Permet une architecture claire et modulaire.
 
-Logique du jeu
+---
 
-Au lancement d'une partie, le jeu crée des paires de cartes, les mélange aléatoirement puis les affiche dans une grille.
+## ⚙️ Logique du jeu
 
-Quand le joueur clique sur une carte, elle est révélée.
-Lorsque deux cartes sont révélées, le programme compare leurs identifiants.
+1. Génération des paires
+2. Mélange aléatoire
+3. Affichage dans la grille
+4. Clic utilisateur → révélation
+5. Comparaison :
 
-Si les identifiants sont identiques, la paire reste visible.
-Sinon, un timer attend un court délai avant de cacher les deux cartes.
+   * ✔ Identiques → restent visibles
+   * ❌ Différentes → cachées après délai
+6. Fin de partie → toutes les paires trouvées
 
-La partie se termine lorsque toutes les paires sont trouvées.
+---
 
-Lancer le projet
-Ouvrir Visual Studio
-Ouvrir la solution SecurITMemory
-Lancer le projet avec le bouton Start
-Jouer au Memory
-Auteurs
+## ▶️ Lancer le projet
 
-Projet réalisé en binôme.
+1. Ouvrir **Microsoft Visual Studio**
+2. Ouvrir le fichier :
 
-MVE Christ 
-Chachou Amine 
+   ```
+   SecurITMemory.sln
+   ```
+3. Lancer avec :
 
-Contexte oral
+   ```
+   F5
+   ```
 
-Nous avons développé ce projet pour répondre au besoin de SecurIT, une start-up spécialisée en cybersécurité.
-L'équipe marketing voulait un mini-jeu interactif pour attirer les visiteurs sur son stand lors du Salon de l'Innovation Tech.
+---
 
-Notre choix s'est porté sur un jeu Memory car il est simple à comprendre, rapide à jouer et permet d'intégrer facilement des icônes liées à la cybersécurité.
+## 👨‍💻 Auteurs
 
-Améliorations possibles
-Ajouter un classement des scores
-Ajouter une base de données SQL
-Ajouter des effets sonores
-Ajouter plusieurs thèmes graphiques
-Ajouter un mode difficile
+Projet réalisé en binôme :
 
+* **MVE Christ**
+* **Chachou Amine**
 
+---
+
+## 🎤 Contexte
+
+Ce projet répond à un besoin marketing de la start-up **SecurIT** :
+
+👉 Créer un mini-jeu interactif pour attirer les visiteurs lors d’un salon tech.
+
+✔ Simple
+✔ Rapide
+✔ Ludique
+✔ Thématique cybersécurité
+
+---
+
+## 📈 Améliorations possibles
+
+* 🏆 Classement des scores
+* 💾 Base de données SQL
+* 🔊 Effets sonores
+* 🎨 Thèmes graphiques
+* 🔥 Mode difficile
+
+---
+
+## 📊 Présentation
+
+📎 La présentation du projet est disponible ici :
+
+👉 **Presentation_SecurITMemory.pdf**
